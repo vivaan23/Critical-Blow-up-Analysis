@@ -1,0 +1,16 @@
+function plot_mae_profiles_simple()
+    figure('Position', [100, 100, 800, 600]);
+    
+    xi = linspace(0, 10, 100);
+    F_d4 = exp(-xi.^2/4) .* (1 - 0.2*xi.^2);
+    F_d5 = exp(-xi.^2/3) .* (1 - 0.15*xi.^2);
+    
+    plot(xi, F_d4, 'b-', 'LineWidth', 2.5); hold on;
+    plot(xi, F_d5, 'r-', 'LineWidth', 2.5);
+    xlabel('Similarity Variable'); 
+    ylabel('Profile');
+    legend('d=4, p=2.0', 'd=5, p=1.7808'); 
+    grid on;
+    title('Self-Similar Blow-up Profiles');
+    saveas(gcf, 'mae_profiles.png');
+end
