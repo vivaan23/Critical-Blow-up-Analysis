@@ -7,7 +7,7 @@ function generate_all_figures()
     plot_growth_curves();
     plot_linear_regression();
     plot_dimensional_scaling();
-    plot_mae_profiles_simple();
+    plot_mae_profiles();
     plot_convergence();
     plot_subcritical_convergence();
     
