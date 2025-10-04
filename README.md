@@ -1,2 +1,8 @@
-# Critical-blowup-analysis
-Critical Blow-up Analysis : Numerical verification of finite-time singularity formation in nonlinear wave equations at the Strauss exponent using unified V⁴ framework.
+# Critical Blow-up Analysis
+
+Code for "Resolution of the critical nonlinear wave equation blow-up conjecture via a Unified Numerical-Variational Framework"
+
+## Quick Start
+```matlab
+run_quick_test();        
+generate_all_figures();  
