@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this verification code, please cite both the research paper and this code repository."
+title: "Critical Blow-up Analysis: Verification Code for Nonlinear Wave Equations"
+abstract: "MATLAB code verifying numerical results from the paper 'Resolution of the critical nonlinear wave equation blow-up conjecture via a Unified Numerical-Variational Framework'. This code reproduces all growth rate measurements, convergence studies, and figures presented in the paper."
+authors:
+  - family-names: "Verma"
+    given-names: "Arpit"
+    affiliation: "Department of Mathematics, University of Lucknow"
+type: "dataset"
+doi: "10.5281/zenodo.17273523"
+url: "https://github.com/arpitverma2017/Critical-Blow-up-Analysis"
+repository-code: "https://github.com/arpitverma2017/Critical-Blow-up-Analysis"
+version: "1.0.0"
+date-released: 2025-01-15
+license: "Academic License"
+keywords:
+  - "nonlinear-wave-equation"
+  - "blow-up"
+  - "strauss-exponent"
+  - "numerical-verification"
+  - "pde"
+  - "finite-volume-method"
+  - "critical-phenomena"
+  - "self-similarity"
