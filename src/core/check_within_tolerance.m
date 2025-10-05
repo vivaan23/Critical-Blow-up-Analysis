@@ -1,4 +1,3 @@
-% check_within_tolerance.m
 function status = check_within_tolerance(measured, target, tolerance)
 % CHECK_WITHIN_TOLERANCE - Check if measured value is within tolerance range
 % Inputs:
