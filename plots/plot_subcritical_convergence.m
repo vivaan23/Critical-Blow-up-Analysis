@@ -16,7 +16,7 @@ function plot_subcritical_convergence()
     subplot(1,2,2);
     xi = linspace(0, 8, 100);
     profile_initial = exp(-xi.^2/2);
-    profile_final = exp(-xi.^2/1.8); % Converged profile
+    profile_final = exp(-xi.^2/1.8); 
     
     plot(xi, profile_initial, 'r--', 'LineWidth', 2); hold on;
     plot(xi, profile_final, 'b-', 'LineWidth', 2);
