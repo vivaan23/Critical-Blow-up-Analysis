@@ -1,7 +1,6 @@
 function [gamma, uncertainty, r_squared, data] = measure_growth_rate(dimension, exponent)
-% MEASURE_GROWTH_RATE - Core function to measure exponential growth rate
-    
-    % Configuration for reliable measurement
+
+% Configuration for reliable measurement
     config.dimension = dimension;
     config.exponent = exponent;
     config.viscosity = 1e-4;
