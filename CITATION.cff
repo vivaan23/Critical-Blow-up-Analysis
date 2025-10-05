@@ -8,8 +8,8 @@ authors:
     affiliation: "Department of Mathematics, University of Lucknow"
 type: "dataset"
 doi: "10.5281/zenodo.17273523"
-url: "https://github.com/vivaan23/Critical-Blow-up-Analysis"
-repository-code: "https://github.com/vivaan23/Critical-Blow-up-Analysis"
+url: "https://github.com/vivaan23/critical-blowup-analysis"
+repository-code: "https://github.com/vivaan23/critical-blowup-analysis"
 version: "1.0.0"
 date-released: 2025-01-15
 license: "Academic License"
