@@ -1,5 +1,5 @@
 function results = run_verification_simulation(config, mae_profile)
-% run_verification_simulation - Implement Pillars III & IV: Viscosity + FVM
+Implement Pillars III & IV: Viscosity + FVM
 % Solve the regularized PDE in self-similar coordinates
 
     d = config.dimension;
