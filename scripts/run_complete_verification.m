@@ -30,6 +30,6 @@ function run_complete_verification()
     plot_convergence();
     plot_subcritical_convergence();
     
-    fprintf('\n🎯 VERIFICATION COMPLETE!\n');
+    fprintf('\n VERIFICATION COMPLETE!\n');
     fprintf('All paper claims successfully verified.\n');
 end
