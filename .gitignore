@@ -1,0 +1,54 @@
+# =============================================
+# CRITICAL-BLOW-UP-ANALYSIS - MATLAB .GITIGNORE
+# =============================================
+
+# MATLAB AUTOSAVE FILES
+*.asv
+*.[Aa][Ss][Vv]
+*.autosave
+
+# MATLAB COMPILED/BINARY FILES
+*.mex*
+*.mex
+*.p
+*.mexw32
+*.mexw64
+*.mexa64
+
+# MATLAB FIGURE FILES
+*.fig
+
+# LARGE DATA FILES
+*.mat
+
+# MATLAB TEMPORARY FILES
+*.tmp
+*~
+*.bak
+*.backup
+
+# MATLAB PACKAGING FILES
+*.mlapp
+*.mlappinstall
+*.mltbx
+*.prj
+*.ctf
+
+# OS-SPECIFIC JUNK FILES
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+
+# LOG FILES
+*.log
+
+# ======================
+# TEMPORARY DIRECTORIES
+# ======================
+tmp/
+temp/
+cache/
+derived/
