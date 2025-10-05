@@ -1,4 +1,4 @@
-# critical-blowup-analysis: Verification Code
+# critical-blowup-analysis: verification code
 
 **Supplementary Code for :**  
 "Resolution of the critical nonlinear wave equation blow-up conjecture via a Unified Numerical-Variational Framework"  
