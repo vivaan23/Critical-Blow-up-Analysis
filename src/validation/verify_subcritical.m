@@ -1,5 +1,5 @@
 function verify_subcritical()
-    fprintf('=== SUBCRITICAL VALIDATION (d=4, p=1.8) ===\n\n');
+    fprintf(' SUBCRITICAL VALIDATION (d=4, p=1.8) \n\n');
     
     % Reproduce Table 2 results
     fprintf('Convergence to self-similar profile:\n');
@@ -17,8 +17,8 @@ function verify_subcritical()
     fprintf('\nError reduction factor: %.2f per unit τ\n', avg_decay);
     
     if avg_decay > 3.0
-        fprintf('✅ SUBCRITICAL CONVERGENCE VERIFIED\n');
-        fprintf('   Framework validated against known solution\n');
+        fprintf('SUBCRITICAL CONVERGENCE VERIFIED\n');
+        fprintf('Framework validated against known solution\n');
     end
 end
 
