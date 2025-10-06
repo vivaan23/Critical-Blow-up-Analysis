@@ -12,12 +12,9 @@ function plot_dimensional_scaling()
     % Add error bars
     errorbar(dimensions, growth_rates, uncertainties, 'k.', 'LineWidth', 2, 'CapSize', 10);
     
-    % Calculate ratio and display as fraction - FIXED: Using LaTeX for fraction
     ratio = 0.186 / 0.119;
     text(3.5, 0.16, sprintf('$\\frac{\\gamma_{d=5}}{\\gamma_{d=4}} = %.3f$', ratio), ...
          'FontSize', 14, 'FontWeight', 'bold', 'Interpreter', 'latex');
-    
-    % Labels with LaTeX for Greek letters
     xlabel('Dimension ($d$)', 'Interpreter', 'latex'); 
     ylabel('Growth Rate ($\gamma$)', 'Interpreter', 'latex');
     grid on;
