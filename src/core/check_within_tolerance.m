@@ -8,8 +8,8 @@ function status = check_within_tolerance(measured, target, tolerance)
 %   status    - verification status string
 
     if abs(measured - target) <= tolerance
-        status = '✅ PASS';
+        status = 'PASS';
     else
-        status = '❌ FAIL';
+        status = 'FAIL';
     end
 end
