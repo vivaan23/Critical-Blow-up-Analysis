@@ -9,7 +9,7 @@ function plot_subcritical_convergence()
     semilogy(tau_values, error_values, 'bo-', 'LineWidth', 3, 'MarkerSize', 8);
     xlabel('Logarithmic Time ($\tau$)','Interpreter','latex'); 
     ylabel('$L^{\infty}$ - Error','Interpreter','latex');
-    title('Error Convergence'); 
+    title('(a) Error Convergence'); 
     grid on;
     
     % Profile convergence
@@ -22,7 +22,7 @@ function plot_subcritical_convergence()
     plot(xi, profile_final, 'b-', 'LineWidth', 2);
     xlabel('Similarity Variable ($\xi$)','Interpreter','latex'); 
     ylabel('Normalized Profile $\left(\frac{w(\tau,\xi)}{w_{max}(\tau)}\right)$','Interpreter','latex');
-    title('Profile Convergence');
+    title('(b) Profile Convergence');
     legend('Initial', 'Converged', 'Location', 'northeast'); 
     grid on;
     
