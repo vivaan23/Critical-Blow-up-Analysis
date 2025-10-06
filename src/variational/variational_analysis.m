@@ -1,5 +1,5 @@
 function variational_analysis()
-    fprintf('=== VARIATIONAL ANALYSIS ===\n\n');
+    fprintf(' VARIATIONAL ANALYSIS \n\n');
     
     dimensions = [4, 5];
     
@@ -11,8 +11,8 @@ function variational_analysis()
         
         % Check Palais-Smale condition
         if abs(p - compute_strauss_exponent(d)) < 1e-6
-            fprintf('  ✅ Critical case: Functional fails Palais-Smale\n');
-            fprintf('  → No finite-energy self-similar profiles exist\n');
+            fprintf('  Critical case: Functional fails Palais-Smale\n');
+            fprintf('  No finite-energy self-similar profiles exist\n');
         else
             fprintf('  Subcritical case: Minimizers exist\n');
         end
