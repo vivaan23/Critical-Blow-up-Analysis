@@ -3,7 +3,7 @@ function plot_linear_regression()
     
     tau = 4:0.5:12;
     
-    % Your actual data points with some noise
+    % Actual data points with some noise
     ln_w_d4 = 0.119 * tau + 1.6 + 0.02*randn(size(tau));
     ln_w_d5 = 0.186 * tau + 1.6 + 0.01*randn(size(tau));
     
