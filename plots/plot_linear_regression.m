@@ -17,8 +17,6 @@ function plot_linear_regression()
     
     xlabel('Logarithmic Time ($\tau$)','Interpreter','latex'); 
     ylabel('$\ln(w_{\max}(\tau))$','Interpreter','latex');
-    
-    % Clearer legend
     legend('$d$=4: Numerical results', '$d$=5: Numerical results', ...
            '$d$=4: Linear fit ($\gamma$=0.119)', '$d$=5: Linear fit ($\gamma$=0.186)', ...
            'Location', 'northwest', 'Interpreter', 'latex'); 
