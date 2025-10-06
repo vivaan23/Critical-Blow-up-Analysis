@@ -1,5 +1,5 @@
 function run_complete_verification()
-    fprintf('=== COMPLETE PAPER VERIFICATION SUITE ===\n\n');
+    fprintf(' COMPLETE PAPER VERIFICATION SUITE \n\n');
     
     % Add paths
     addpath('src/core', 'src/convergence', 'src/validation', 'src/variational', 'src/utils');
