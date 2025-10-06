@@ -22,12 +22,7 @@ function plot_linear_regression()
     legend('$d$=4: Numerical results', '$d$=5: Numerical results', ...
            '$d$=4: Linear fit ($\gamma$=0.119)', '$d$=5: Linear fit ($\gamma$=0.186)', ...
            'Location', 'northwest', 'Interpreter', 'latex'); 
-    
     grid on;
-    title('Linear Regression: Exponential Growth Rate Measurement');
-    
-    % Add annotation about what's being shown
     text(4.5, 3.8, 'Slope = Growth Rate γ', 'FontSize', 11, 'Color', 'black');
-    
     saveas(gcf, 'linear_regression.png');
 end
