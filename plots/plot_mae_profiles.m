@@ -11,6 +11,5 @@ function plot_mae_profiles()
     ylabel('Profile ($F_(\xi)$)','Interpreter','latex');
     legend('$d$=4, $p$=2.0', '$d$=5, $p$=1.7808', 'Interpreter', 'latex'); 
     grid on;
-    title('Self-Similar Blow-up Profiles');
     saveas(gcf, 'mae_profiles.png');
 end
