@@ -10,7 +10,6 @@ function plot_growth_curves()
     xlabel('Logarithmic Time ($\tau$)','Interpreter','latex'); 
     ylabel('Maximum Amplitude ($w_{\max}$)', 'Interpreter','latex');
     legend('$d$=4, $\gamma$=0.119', '$d$=5, $\gamma$=0.186', 'Location', 'northwest','Interpreter','latex');
-    title('Exponential Growth at Critical Exponent'); 
     grid on;
     saveas(gcf, 'growth_curves.png');
 end
