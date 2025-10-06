@@ -20,8 +20,6 @@ function plot_dimensional_scaling()
     % Labels with LaTeX for Greek letters
     xlabel('Dimension ($d$)', 'Interpreter', 'latex'); 
     ylabel('Growth Rate ($\gamma$)', 'Interpreter', 'latex');
-    title('Dimensional Scaling of Instability', 'Interpreter', 'latex'); 
-    
     grid on;
     saveas(gcf, 'dimensional_scaling.png');
 end
