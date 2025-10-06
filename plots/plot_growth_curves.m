@@ -8,7 +8,7 @@ function plot_growth_curves()
     semilogy(tau, w_d4, 'b-', 'LineWidth', 3); hold on;
     semilogy(tau, w_d5, 'r-', 'LineWidth', 3);
     xlabel('Logarithmic Time ($\tau$)','Interpreter','latex'); 
-    ylabel('Maximum Amplitude ($w_{max}$)', 'Interpreter','latex');
+    ylabel('Maximum Amplitude ($w_{\max}$)', 'Interpreter','latex');
     legend('$d$=4, $\gamma$=0.119', '$d$=5, $\gamma$=0.186', 'Location', 'northwest','Interpreter','latex');
     title('Exponential Growth at Critical Exponent'); 
     grid on;
