@@ -1,5 +1,5 @@
 function verify_growth_rates()
-    fprintf('=== CRITICAL BLOW-UP GROWTH RATE VERIFICATION ===\n\n');
+    fprintf(' CRITICAL BLOW-UP GROWTH RATE VERIFICATION \n\n');
     
     % Target values from paper
     target_gamma_d4 = 0.118;
@@ -23,8 +23,8 @@ function verify_growth_rates()
     fprintf('  Ratio = %.3f %s (target: %.3f ± 0.050)\n', measured_ratio, ratio_check, target_ratio);
     fprintf('  R² values: d=4: %.4f, d=5: %.4f\n\n', r2_d4, r2_d5);
     
-    if strcmp(d4_check, '✅ PASS') && strcmp(d5_check, '✅ PASS') && strcmp(ratio_check, '✅ PASS')
-        fprintf('✅ ALL GROWTH RATE CLAIMS VERIFIED\n');
+    if strcmp(d4_check, 'PASS') && strcmp(d5_check, 'PASS') && strcmp(ratio_check, 'PASS')
+        fprintf('ALL GROWTH RATE CLAIMS VERIFIED\n');
     end
 end
 
