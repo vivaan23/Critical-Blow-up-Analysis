@@ -16,7 +16,7 @@ function plot_linear_regression()
     plot(tau, 0.186*tau + 1.6, 'r-', 'LineWidth', 2);
     
     xlabel('Logarithmic Time ($\tau$)','Interpreter','latex'); 
-    ylabel('$\ln(w_{max}(\tau))$','Interpreter','latex');
+    ylabel('$\ln(w_{\max}(\tau))$','Interpreter','latex');
     
     % Clearer legend
     legend('$d$=4: Numerical results', '$d$=5: Numerical results', ...
