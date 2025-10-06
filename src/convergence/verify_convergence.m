@@ -1,5 +1,5 @@
 function verify_convergence()
-    fprintf('=== NUMERICAL CONVERGENCE VERIFICATION ===\n\n');
+    fprintf(' NUMERICAL CONVERGENCE VERIFICATION \n\n');
     
     % Spatial convergence (Table 4)
     fprintf('SPATIAL CONVERGENCE:\n');
@@ -29,5 +29,5 @@ function verify_convergence()
         fprintf('  ε = %.0e: γ = %.4f\n', epsilon_values(i), epsilon_gamma(i));
     end
     
-    fprintf('\n✅ ALL CONVERGENCE CRITERIA SATISFIED\n');
+    fprintf('\n ALL CONVERGENCE CRITERIA SATISFIED\n');
 end
