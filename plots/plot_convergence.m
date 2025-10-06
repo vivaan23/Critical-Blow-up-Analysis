@@ -48,11 +48,7 @@ function plot_convergence()
     ylabel('Growth Rate ($\gamma(\epsilon)$)', 'FontSize', 12);
     title('(c) Viscosity Convergence', 'FontSize', 13);
     grid on;
-    
     text(2e-4, 0.116, '$\gamma_{\infty} = 0.1190$', 'FontSize', 11, 'Color', 'black');
-    
-    sgtitle('Convergence Analysis', 'FontSize', 16, 'FontWeight', 'bold');
-    
     saveas(gcf, 'convergence_verification.png');
     
     % Reset to default interpreters
