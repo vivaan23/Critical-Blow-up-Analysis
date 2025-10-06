@@ -25,7 +25,5 @@ function plot_subcritical_convergence()
     title('(b) Profile Convergence');
     legend('Initial', 'Converged', 'Location', 'northeast'); 
     grid on;
-    
-    sgtitle('Subcritical Case Validation');
     saveas(gcf, 'subcritical_validation.png');
 end
